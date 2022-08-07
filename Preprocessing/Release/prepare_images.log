@@ -1,0 +1,28 @@
+﻿  prepare_images.cpp
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(40,21): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(40,21): warning C4244: 	uint8_t sat_thirds = round(sat_sixths / 2.0f);
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(40,21): warning C4244: 	                   ^
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(165,16): warning C4838: conversion from 'float' to 'uint8_t' requires a narrowing conversion
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(165,16): warning C4838: 	HSV hsv{ round(h), round(s), v };
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(165,16): warning C4838: 	              ^
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(165,16): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(165,16): warning C4244: 	HSV hsv{ round(h), round(s), v };
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(165,16): warning C4244: 	              ^
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(165,26): warning C4838: conversion from 'float' to 'uint8_t' requires a narrowing conversion
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(165,26): warning C4838: 	HSV hsv{ round(h), round(s), v };
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(165,26): warning C4838: 	                        ^
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(165,26): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(165,26): warning C4244: 	HSV hsv{ round(h), round(s), v };
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\functions.hpp(165,26): warning C4244: 	                        ^
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\prepare_images.cpp(57,20): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\prepare_images.cpp(57,20): warning C4244: 		size_t new_width = float(LEDCount) / height * width;
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\prepare_images.cpp(57,20): warning C4244: 		                 ^
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\prepare_images.cpp(99,36): warning C4101: 'e': unreferenced local variable
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\prepare_images.cpp(99,36): warning C4101: 			catch (const boost::exception & e) {
+D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\prepare_images.cpp(99,36): warning C4101: 			                                ^
+  Generating code
+  7 of 2587 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  prepare_images.vcxproj -> D:\Anton\Study\MIPTworks\Programming\Ignis\Sketches\prepare_images\Release\prepare_images.exe

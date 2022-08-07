@@ -1,0 +1,7 @@
+Arduino IDE: https://www.arduino.cc/en/software
+Arduino IDE Mod: https://www.onetransistor.eu/2017/11/stm32-bluepill-arduino-ide.html
+
+FastLED 3.1, specifically this fork:
+https://github.com/evq/FastLED/tree/stm32f103. 
+
+Installed by replacing the files of FastLED 3.1 from the Arduino IDE. Simpler this way.
